@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Gowun";
+    src: url(Fonts/GowunBatang-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 48px;
+}
+
+p {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.navbar {
+    text-align: left;
+}
+
+nav a:hover {
+    color: brown;
+}
+
+ul {
+    list-style: none;
+}
+
+.list {
+    font-family: Gowun;
+    padding-left: 50%;
+}
+
+.content img {
+    float: none;
+    max-width: 100%;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 800px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+}
